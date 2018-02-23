@@ -23,9 +23,9 @@ Topics:
 
 ## Initialize Project
 
-* Run `npm i` inside the root directory of this project. Run `node server.js` to start the server.
-* Run `create-react-app friends` in in a separate terminal window in the root directory of the project to create your starter application.
-* `cd` into 'friends' & Run `npm i --save redux react-redux redux-thunk redux-logger axios`, which will install the needed dependencies.
+[x] [x]* Run `npm i` inside the root directory of this project. Run `node server.js` to start the server.
+[x] []* Run `create-react-app friends` in in a separate terminal window in the root directory of the project to create your starter application.
+[x] [x]* `cd` into 'friends' & Run `npm i --save redux react-redux redux-thunk redux-logger axios`, which will install the needed dependencies.
 * You will create a list of your friends using React and Redux.
 * The general flow of steps will be to create your action creator functions, your reducers, then your React components.
 * Don't forget to hook up the store using the `Provider` tag inside of `src/index.js`, passing it your root reducer.

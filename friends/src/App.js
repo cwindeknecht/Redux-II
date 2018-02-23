@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import { connect } from 'react-redux';
+import { addFriend } from './actions';
+import FriendList from './components/FriendList';
 
 class App extends Component {
   render() {
